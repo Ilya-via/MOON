@@ -1,0 +1,219 @@
+@media (max-width: 991px) {
+
+	.getting {
+
+		&__wrapper {
+			max-width: 769px;
+			margin: 0 auto;
+		}
+
+		&__container-items {
+			max-width: 769px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__container-items>.getting__item:last-child {
+			margin-top: 40px;
+		}
+
+		&__container-items>div:not(:last-child) {
+			margin-bottom: 0;
+		}
+
+		&__title {
+			margin: 0 auto;
+			margin-top: -30px;
+			width: 100%;
+			font-size: 52px;
+			line-height: 100%;
+		}
+
+		&__item {
+			display: flex;
+			margin-bottom: 38px;
+
+			.getting__container-info {
+				margin-left: 36px;
+			}
+		}
+
+		&__item-reverse {
+			display: flex;
+			flex-direction: row;
+			margin-left: 0;
+			margin-bottom: 38px;
+
+			.getting__container-info {
+				margin-left: 36px;
+
+				h3,
+				p {
+					text-align: left;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 770px) {
+	.getting {
+		
+		&__container-items>div:not(:last-child) {
+			margin-bottom: 20px;
+		}
+
+		&__container-items>.getting__item:last-child {
+			margin-top: 0;
+		}
+
+		&__container-items {
+			margin-top: 40px;
+		}
+
+		&__title {
+			width: 500px;
+		}
+
+		&__caption {
+			font-size: 21px;
+			margin-bottom: 10px;
+		}
+
+		&__pc-getting-clouds {
+			height: 270px;
+			background: url(../styles/img/getting/clouds/tablet-getting-clouds.png) no-repeat;
+		}
+
+		.getting__cup,
+		.getting__number,
+		.getting__instruments,
+		.getting__coffee,
+		.getting__cirtificate {
+			background-position: center center, center center, center center;
+			width: 230px;
+			height: 165px;
+			margin-left: 10px;
+		}
+
+		&__cup {
+			background: url(../styles/img/getting/tablet/tablet-cup.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/tablet/clouds/tablet-clouds_cup.png) no-repeat;
+		}
+
+		&__number {
+			background: url(../styles/img/getting/tablet/tablet-10.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/tablet/clouds/tablet-clouds_10.png) no-repeat;
+		}
+
+		&__instruments {
+			background: url(../styles/img/getting/tablet/tablet-instruments.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/tablet/clouds/tablet-clouds_instruments.png) no-repeat;
+		}
+
+		&__coffee {
+			background: url(../styles/img/getting/tablet/tablet-coffee.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/tablet/clouds/tablet-clouds_coffee.png) no-repeat;
+		}
+
+		&__cirtificate {
+			background: url(../styles/img/getting/tablet/tablet-cirtificate.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/tablet/clouds/tablet-clouds_cirtificate.png) no-repeat;
+		}
+	}
+}
+
+@media (max-width: 765px) {
+	.getting {
+		&__title {
+			width: 100%;
+			font-size: 32px;
+		}
+
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		&__item-reverse {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			margin-left: 0;
+		}
+	}
+}
+
+@media (max-width: 568px) {
+	.getting {
+		&__text {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+
+	.getting {
+		&__title {
+			font-size: 26px;
+		}
+
+		&__caption {
+			font-size: 18px;
+		}
+
+		&__text {
+			font-size: 14px;
+		}
+
+		&__container-items {
+			margin-top: 20px;
+		}
+
+		.getting__cup,
+		.getting__number,
+		.getting__instruments,
+		.getting__coffee,
+		.getting__cirtificate {
+			width: 140px;
+			height: 110px;
+			background-position: center center, center center, center center;
+			margin: 0 0 10px;
+		}
+
+		&__cup {
+			background: url(../styles/img/getting/phone/phone-cup.png) no-repeat, url(../styles/img/getting/phone/phone-circle.svg) no-repeat, url(../styles/img/getting/phone/clouds/phone-clouds.png) no-repeat;
+		}
+
+		&__number {
+			background: url(../styles/img/getting/phone/phone-10.png) no-repeat, url(../styles/img/getting/phone/phone-circle.svg) no-repeat, url(../styles/img/getting/phone/clouds/phone-clouds.png) no-repeat;
+		}
+
+		&__instruments {
+			background: url(../styles/img/getting/phone/phone-instruments.png) no-repeat, url(../styles/img/getting/phone/phone-circle.svg) no-repeat, url(../styles/img/getting/phone/clouds/phone-clouds.png) no-repeat;
+		}
+
+		&__coffee {
+			background: url(../styles/img/getting/phone/phone-coffee.png) no-repeat, url(../styles/img/getting/phone/phone-circle.svg) no-repeat, url(../styles/img/getting/phone/clouds/phone-clouds.png) no-repeat;
+		}
+
+		&__cirtificate {
+			background: url(../styles/img/getting/phone/phone-cirtificate.png) no-repeat, url(../styles/img/getting/phone/phone-circle.svg) no-repeat, url(../styles/img/getting/phone/clouds/phone-clouds.png) no-repeat;
+		}
+
+		&__container-items>div {
+			margin-bottom: 10px;
+		}
+
+		.getting__item,
+		.getting__item-reverse {
+			.getting__container-info {
+				margin-left: 0;
+
+				p,
+				h3 {
+					text-align: center;
+				}
+			}
+		}
+	}
+}

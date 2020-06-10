@@ -1,0 +1,256 @@
+@media (max-width: 1199px) {
+
+	.header {
+
+		&__logo {
+			margin-right: 20px;
+		}
+
+		&__tel {
+			display: none;
+		}
+
+		&__navbar {
+			max-width: 992px;
+			justify-content: center;
+		}
+
+		&__navbar-links {
+			margin-left: 20px;
+			margin-right: 20px;
+			justify-content: center;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+
+	.header {
+		min-height: 762px;
+		margin-bottom: 0;
+
+		#hamburger {
+			display: flex;
+		}
+
+		&__title {
+			font-size: 52px;
+			line-height: 72px;
+			letter-spacing: 0.02em;
+		}
+
+		&__text {
+			font-size: 18px;
+		}
+
+		&__navbar {
+			width: 100%;
+			justify-content: space-between;
+
+			>ul {
+				display: none;
+			}
+		}
+
+		&__logo {
+			margin-left: auto;
+		}
+
+		&__hamburger {
+			display: flex;
+		}
+
+		&__online-registration-button {
+			width: 360px;
+		}
+	}
+}
+
+@media (max-width: 770px) {
+	.header {
+		background: url(../styles/img/header/tablet-nails-backgorund.png) center top no-repeat;
+
+		&__title {
+			margin-top: 182px;
+		}
+
+		&__pc-banner-clouds {
+			margin-top: 140px;
+			background: url(../styles/img/header/tablet-banner-clouds_img.png) no-repeat;
+			height: 265px;
+		}
+	}
+}
+
+@media (min-width: 568px) and(max-width: 770px) {
+	.header {
+		&__phone-button {
+			margin: 1px 20px 0 0;
+			width: 40px;
+			height: 40px;
+
+			&__phone {
+				width: 30px;
+				height: 30px;
+			}
+
+			a {
+				margin: -10px 0 0 -10px;
+				width: 38px;
+				height: 38px;
+			}
+		}
+
+		&__hamburger {
+			margin-right: 10px;
+			width: 40px;
+			height: 40px;
+		}
+		&__online-registration-button--on {
+			font-size: 23px;
+		}
+	}
+}
+
+@media (max-width: 765px) {
+	.header {
+		min-height: 398px;
+
+		&__logo {
+			margin-left: 0;
+			margin-right: 0;
+			background: url(../styles/img/logo/header__phone-logo.svg) no-repeat center center;
+		}
+
+		&__title {
+			font-size: 34px;
+			line-height: 120%;
+			text-align: center;
+			letter-spacing: 0.02em;
+		}
+
+		&__text {
+			margin-top: 7px;
+		}
+
+		&__online-registration-button {
+			width: 220px;
+			height: 40px;
+			font-size: 16px;
+			line-height: 22px;
+			letter-spacing: 0.06em;
+		}
+
+		&__pc-banner-clouds {
+			margin-top: 77px;
+		}
+
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		background: url(../styles/img/header/phone-nails-backgorund.png) center top no-repeat;
+		background-size: cover;
+
+		&__title {
+			margin-top: 115px;
+		}
+
+		&__text {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		&__online-registration-button {
+			margin-top: 30px;
+		}
+
+		&__pc-banner-clouds {
+			margin-top: 0;
+			background: url(../styles/img/header/phone-banner-clouds_img.png) no-repeat;
+			height: 111px;
+		}
+	}
+}
+
+// LOGO MEDIA BLOCK BEGIN
+.header__logo {
+	@media (min-width: 890px) and (max-width: 991px) {
+		margin-right: 300px;
+	}
+
+	@media (min-width: 840px) and (max-width: 890px) {
+		margin-right: 260px;
+	}
+
+	@media (min-width: 765px) and (max-width: 840px) {
+		margin-right: 220px;
+	}
+}
+
+// LOGO MEDIA BLOCK END
+
+// MENU MEDIA BLOCK BEGIN
+@media (min-height: 700px) and(max-height: 770px) {
+	.header__menu-tablet {
+		ul {
+			margin-top: 90px;
+		}
+	}
+}
+
+@media (min-height: 600px) and(max-height: 700px) {
+	.header__menu-tablet {
+		ul {
+			li {
+				a {
+					font-size: 36px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-height: 567px) and (max-height: 600px) {
+	.header__menu-tablet {
+		ul {
+			>li:not(:last-child) {
+				margin-bottom: 7px;
+			}
+
+			li {
+				a {
+					font-size: 32px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-height: 567px) {
+	.header__menu-tablet {
+		ul {
+			li {
+				display: flex;
+				align-items: center;
+				height: 35px;
+
+				a {
+					font-size: 26px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-height: 400px) {
+	.header__menu-tablet {
+		ul {
+			>li:not(:last-child) {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+// MENU MEDIA BLOCK END

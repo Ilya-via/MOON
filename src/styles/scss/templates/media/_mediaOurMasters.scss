@@ -1,0 +1,124 @@
+@media (max-width: 1500px) {
+    .ourMasters {
+        &__wrapper {
+            padding-left: 0;
+            justify-content: center;
+        }
+        &__master {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        &__brush {
+            left: -2px;
+        }
+        &__polish {
+            right: 0;
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .ourMasters {
+        &__master {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        &__whiteRestangle {
+            width: 360px;
+        }
+        &__strokeRestangle {
+            background: url(../styles/img/dashed/rectangleTablet.svg) center center no-repeat;
+        }
+        &__brush {
+            left: 25px;
+            top: -30px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .ourMasters {
+        &__title {
+            font-size: 52px;
+        }
+        &__wrapper {
+            margin-top: 21px;
+        }
+        &__master {
+            margin-top: -9px;
+        }
+        &__brush {
+            background-size: 230px 230px;
+            left: -6px;
+            top: -91px;
+        }
+        &__polish {
+            max-width: 50px;
+            max-height: 100px;
+            transform: rotate(-26deg);
+            background-size: 100px 100px;
+            right: 36px;
+            top: 445px;
+        }
+        &__name {
+            margin-top: -7px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .ourMasters {
+        &__title {
+            font-size: 26px;
+        }
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__master {
+            padding-top: 10px;
+        }
+        &__whiteEllipse {
+            top: calc(-92.85px / 2);
+            width: 92.85px;
+            height: 92.85px;
+        }
+        &__strokeEllipse {
+            top: calc(-92.85px / 2);
+            width: 92.85px;
+            height: 92.85px;
+            background-size: 83px;
+            img {
+                width: 71.94px
+            }
+        }
+        &__whiteRestangle {
+            width: 300px;
+            height: 122.55px;
+        }
+        &__strokeRestangle {
+            background-size: 291px
+        }
+        &__brush {
+            top: -74px;
+        }
+        &__polish {
+            transform: rotate(-10deg);
+            right: 25px;
+            top: 420px;
+        }
+    }
+}
+@media (max-width: 568px) {
+    .ourMasters {
+        &__polish {
+            background: none;
+        }
+        &__brush {
+            background: none;
+        }
+        &__master {
+            margin-top: -21px;
+            padding: 0;
+        }
+        &__wrapper {
+            margin-top: 14px;
+        }
+    }
+}

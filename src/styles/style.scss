@@ -1,0 +1,26 @@
+@import "scss/base";
+@import "scss/variables/reset";
+@import "css/vendor/glide.core";
+@import "css/vendor/micromodal";
+@import "scss/variables/colors";
+
+@import "scss/templates/header";
+@import "scss/templates/form";
+@import "scss/templates/aboutUs";
+@import "scss/templates/getting";
+@import "scss/templates/ourServices";
+@import "scss/templates/ourMasters";
+@import "scss/templates/footer";
+@import "scss/templates/media/mediaHeader";
+@import "scss/templates/media/mediaForm";
+@import "scss/templates/media/mediaAboutUs";
+@import "scss/templates/media/mediaGetting";
+@import "scss/templates/media/mediaOurServices";
+@import "scss/templates/media/mediaOurMasters";
+@import "scss/templates/media/mediaFooter";
+
+@import "scss/templates/abonement";
+@import "scss/templates/ourWorks";
+@import "scss/templates/customerReviews";
+@import "scss/templates/order";
+@import "scss/templates/media/mediaEvgeny";

@@ -1,0 +1,40 @@
+/*** section order ***/
+.order{
+    padding-top: 22px;
+    background-color: #fff;
+    display: flex;
+		justify-content: space-around;
+		padding-bottom: 15px;
+}
+.order .order_form h4{
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.order .order_form_container{
+    max-width: 1170px;
+    width: 80%;
+}
+.order .inputs{
+    width: 80%;
+    justify-content: space-between;
+}
+.order .inputs input{
+    width: 30%;
+}
+.order textarea{
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+    padding-top: 18px;
+    color: #a4a4a4;
+    font-size: 18px;
+    line-height: 25px;
+    text-indent: 30px;
+    letter-spacing: 0.01em;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px dashed #a4a4a4;
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}

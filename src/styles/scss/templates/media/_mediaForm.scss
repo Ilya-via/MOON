@@ -1,0 +1,174 @@
+@media (max-width: 1199px) {
+	.order_form_container1 {
+		.order_form {
+			.inputs {
+
+				.inputs__type-service,
+				.inputs__name,
+				.phone_us {
+					width: 300px;
+				}
+
+				.inputs__type-service {
+					span:nth-child(1) {
+						font-size: 16px;
+					}
+				}
+
+				.inputs__container1 {
+					.content {
+						width: 300px;
+
+						div {
+							label {
+								span {
+									font-size: 16px;
+								}
+
+								span:nth-child(2) {
+									padding-right: 20px;
+								}
+							}
+						}
+					}
+
+					.inputs__date-time-container {
+
+						.inputs__date,
+						.inputs__time {
+							width: 150px;
+							text-indent: 5px;
+						}
+					}
+				}
+			}
+		}
+
+		button.for_modal {
+			margin-top: 30px;
+			width: 280px;
+		}
+	}
+}
+
+@media (max-width: 840px) {
+
+	.order_form_container1 {
+		top: 0;
+
+		.order_form {
+			&__title {
+				font-size: 18px;
+			}
+
+			.inputs {
+				flex-direction: column;
+				align-items: center;
+
+				.inputs__type-service,
+				.inputs__name,
+				.phone_us {
+					width: 300px;
+				}
+
+				.inputs__container1 {
+					margin-right: 0;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 770px) {
+	.order_form_container1 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.order_form_container1 {
+
+		.order_form__title {
+			margin: 20px 0 20px;
+		}
+
+		button.for_modal {
+			margin-top: 10px;
+			margin-bottom: 30px;
+		}
+
+		.order_form__close {
+
+			width: 20px;
+			height: 10px;
+
+			div {
+				width: 20px;
+				height: 4px;
+			}
+
+			div:nth-child(2) {
+				margin-top: -4px;
+
+			}
+		}
+
+	}
+
+	.datepicker_container {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 5px 10px 15px;
+		margin-left: 50px;
+
+		.datepicker__close {
+			position: absolute;
+			top: 10px;
+			right: 5px;
+		}
+	}
+
+	.datepicker__day-container {
+		padding: 0 5px;
+	}
+}
+
+@media (max-width: 340px) {
+	.order_form_container1 {
+		.order_form {
+			.inputs {
+
+				.inputs__type-service,
+				.inputs__name,
+				.phone_us {
+					width: 280px;
+				}
+
+				.inputs__container1 {
+
+					.content {
+						margin-top: 170px;
+						width: 280px;
+					}
+
+					.inputs__date-time-container {
+
+						.inputs__date,
+						.inputs__time {
+							width: 140px;
+							text-indent: 5px;
+						}
+
+						.inputs__date {
+							.inputs__date-icon {
+								margin-left: 0px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

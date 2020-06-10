@@ -1,0 +1,289 @@
+@media (max-width: 1500px) {
+	.ourServices {
+		&__column-1 {
+			margin: 0;
+		}
+
+		&__column-2 {
+			margin: 84px 0 0 40px;
+		}
+
+		&__nailfile {
+			margin: -843px 0 0 -100px;
+		}
+
+		&__scissors {
+			margin: -412px 0 0 910px;
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+
+	.ourServices {
+
+		&__container-items {
+			flex-direction: column;
+			align-items: center;
+			margin-top: -15px;
+		}
+
+		&__column-1 {
+
+			>:nth-child(odd) {
+				margin: 44px 206px 0 0;
+			}
+
+			>:nth-child(even) {
+				margin: 44px 0 0 207px;
+			}
+		}
+
+		&__column-2 {
+			margin-top: 0;
+
+			>:nth-child(odd) {
+				margin: 44px 0 0 207px;
+			}
+
+			>:nth-child(even) {
+				margin: 44px 206px 0 0;
+			}
+		}
+
+		&__nailfile {
+			margin: -1425px 0 0 175px;
+
+		}
+
+		&__scissors {
+			margin: -530px 0 0 660px;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+
+	.ourServices {
+		&__wrapper {
+			max-width: 769px;
+
+		}
+
+		&__container-items {
+			max-width: 769px;
+		}
+
+		&__title {
+			font-size: 52px;
+		}
+
+		&__column-2 {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		&__nailfile {
+			margin: -1470px 0 0 80px;
+		}
+
+		&__scissors {
+			margin: -560px 0 0 550px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ourServices {
+		&__column-1 {
+
+			>:nth-child(odd) {
+				margin-left: 60px;
+				margin-right: 147px;
+			}
+		}
+
+		&__column-2 {
+			margin-top: 0;
+			margin-left: 0;
+
+			>:nth-child(even) {
+				margin-left: 60px;
+				margin-right: 147px;
+			}
+		}
+
+		&__nailfile {
+			margin: -1450px 0 0 50px;
+		}
+
+		&__scissors {
+			margin: -525px 0 0 590px;
+		}
+	}
+}
+
+
+@media (max-width: 765px) {
+	.ourServices {
+		&__title {
+			width: 100%;
+			font-size: 32px;
+		}
+
+		&__nailfile {
+			display: none;
+		}
+
+		&__scissors {
+			display: none;
+		}
+
+
+
+		&__column-1 {
+
+			>:nth-child(n) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		&__column-2 {
+			margin-top: 0;
+			margin-left: 0;
+
+			>:nth-child(n) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+@media (max-width: 568px) {
+	.ourServices {
+		&__reservation-button {
+			transform: scale(0.8);
+			font-size: 18px;
+		}
+
+		&__container-info {
+			justify-content: space-between;
+			width: 300px;
+			height: 114px;
+			background-position: left top;
+		}
+
+		&__column-1 {
+
+			.ourServices__item {
+				flex-direction: column;
+
+				.ourServices__container-info {
+					background: url(../styles/img/ourServices/phone/phone-block_bg1.png);
+				}
+			}
+
+			.ourServices__container-info {
+				flex-direction: row;
+
+				.ourServices__nails {
+					margin: 10px;
+					margin-left: 14px;
+				}
+			}
+		}
+
+		&__column-2 {
+
+			.ourServices__item {
+				flex-direction: column;
+
+				.ourServices__container-info {
+					background: url(../styles/img/ourServices/phone/phone-block_bg2.png);
+				}
+			}
+
+			.ourServices__container-info {
+				flex-direction: row-reverse;
+
+				.ourServices__nails {
+					margin: 10px;
+					margin-left: 14px;
+				}
+			}
+		}
+
+		&__nails {
+			width: 92px;
+			height: 92px;
+		}
+
+		&__usual_m--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_usual_m.png) no-repeat;
+		}
+
+		&__shellac_m--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_shellac_m.png) no-repeat;
+		}
+
+		&__UF_m--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_UF_m.png) no-repeat;
+		}
+
+		&__usual_p--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_usual_p.png) no-repeat;
+		}
+
+		&__shellac_p--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_shellac_p.png) no-repeat;
+		}
+
+		&__UF_p--background {
+			background: url(../styles/img/ourServices/phone/phone-nails_UF_p.png) no-repeat;
+		}
+
+		&__caption {
+			width: 180px;
+			height: 22px;
+			font-size: 18px;
+		}
+
+		&__text {
+			font-size: 22px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.ourServices {
+		&__title {
+			font-size: 26px;
+		}
+
+		&__container-items {
+			margin-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		&__container-info {
+			margin-bottom: 10px;
+		}
+
+		&__column-1 {
+
+			>:nth-child(n) {
+				margin: 20px 0 0 0;
+			}
+		}
+
+		&__column-2 {
+			margin-top: 0;
+
+			>:nth-child(n) {
+				margin: 20px 0 0 0;
+			}
+		}
+	}
+}

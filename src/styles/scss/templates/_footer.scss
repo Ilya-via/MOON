@@ -1,0 +1,175 @@
+.footer {
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/*** evgeny code ***/
+	background: url('../styles/img/footer/pc-finalform-clouds_img.png') no-repeat top -18px center;
+	background-size: contain;
+	padding-top: 213px;
+	/*** evgeny code ***/
+	padding-bottom: 42.43px;
+	min-height: 450px;
+
+	&__logo {
+		width: 181px;
+	}
+
+	&__wrapper {
+		padding: 42.43px 100px;
+		padding-top: 0;
+	}
+
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+
+	&__phone {
+		color: #000000;
+		display: block;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+	}
+
+	&__social {
+		margin-right: 23px;
+	}
+
+	&__social-icons {
+		display: flex;
+		justify-content: center;
+		margin-top: 6px;
+	}
+
+	&__socialText {
+		margin-top: -8px;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 22.55px;
+	}
+
+	&__iframe {
+		margin-top: 30px;
+		width: 100%;
+		height: 276px;
+	}
+
+	&__location {
+		display: flex;
+		margin-top: 6px;
+	}
+
+	&__tel {
+		display: flex;
+	}
+
+	&__email {
+		display: flex;
+		margin-top: 13px;
+	}
+
+	&__address-text {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	&__street {
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	&__logogeo {
+		padding-right: 12.29px;
+	}
+
+	&__logophone {
+		padding-right: 9px;
+	}
+
+	&__logomail {
+		padding-right: 8.21px;
+	}
+
+	&__mailto {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		text-decoration: none;
+		color: #000000;
+	}
+}
+
+// Animated scroll 	/*** Ilya code ***/
+.btn-scrollUp {
+	position: fixed;
+	bottom: 75px;
+	right: 22px;
+	background-color: rgba(130, 115, 241, 0.2);
+	border-radius: 25%;
+	transition: .3s linear;
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 40px;
+		width: 40px;
+		border-radius: 25%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		cursor: pointer;
+
+		span {
+			display: block;
+			height: 3px;
+			width: 12px;
+			border-radius: 10px;
+			background-color: white;
+		}
+
+		span:first-child {
+			margin-right: -2.5px;
+			transform: rotate(-45deg);
+		}
+
+		span:last-child {
+			margin-left: -2.5px;
+			transform: rotate(-135deg);
+		}
+	}
+}
+
+.btn-scrollUp:hover {
+	background-color: rgb(118, 82, 244);
+	transition: .3s linear;
+}
+
+.btn-scrollUp--on {
+	-o-transform: scale(1.2, 1.2);
+	-ms-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+	box-shadow: inset 0 0 10px 4px rgb(53, 63, 78);
+}

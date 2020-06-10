@@ -1,0 +1,117 @@
+.getting {
+	max-width: 1920px;
+	min-height: 981px;
+	margin: 0 auto;
+	margin-top: 140px;
+
+	&__wrapper {
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+
+	&__container-items {
+		margin-top: 25px;
+		max-width: 1170px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__container-items>div:not(:last-child) {
+		margin-bottom: -20px;
+	}
+
+	&__title {
+		font-family: 'Vollkorn', serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 58px;
+		line-height: 100%;
+		text-align: center;
+		color: #4D476F;
+	}
+
+	&__item {
+		display: flex;
+	}
+
+	&__item-reverse {
+		display: flex;
+		flex-direction: row-reverse;
+		margin-left: 400px;
+
+		.getting__container-info {
+
+			h3,
+			p {
+				text-align: right;
+			}
+		}
+	}
+
+	&__container-info {
+		max-width: 370px;
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__caption {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 140%;
+		letter-spacing: 0.01em;
+		color: #000000;
+	}
+
+	&__text {
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 160%;
+		color: #000000;
+	}
+
+	&__cup {
+		width: 265px;
+		height: 185px;
+		background: url(../styles/img/getting/cup.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/clouds/clouds_cup.png) no-repeat;
+		background-position: center center, center center, center center;
+	}
+
+	&__number {
+		width: 265px;
+		height: 185px;
+		background: url(../styles/img/getting/10.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/clouds/clouds_10.png) no-repeat;
+		background-position: center center, center center, center center;
+	}
+
+	&__instruments {
+		width: 265px;
+		height: 185px;
+		background: url(../styles/img/getting/instruments.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/clouds/clouds_instruments.png) no-repeat;
+		background-position: center center, center center, center center;
+	}
+
+	&__coffee {
+		width: 265px;
+		height: 170px;
+		background: url(../styles/img/getting/coffee.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/clouds/clouds_coffee.png) no-repeat;
+		background-position: center center, center center, center center;
+	}
+
+	&__cirtificate {
+		width: 265px;
+		background: url(../styles/img/getting/cirtificate.png) no-repeat, url(../styles/img/getting/circle.svg) no-repeat, url(../styles/img/getting/clouds/clouds_cup.png) no-repeat;
+		background-position: center center, center center, center center;
+	}
+
+	&__pc-getting-clouds {
+		margin: -200px 0 0 0;
+		max-width: 1920px;
+		height: 265px;
+		background: url(../styles/img/getting/clouds/pc-getting-clouds.png) no-repeat;
+	}
+}

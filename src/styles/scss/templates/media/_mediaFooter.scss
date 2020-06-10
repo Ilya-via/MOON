@@ -1,0 +1,267 @@
+@media (max-width: 991px) {
+	.footer {
+		/*** evgeny code ***/
+		background: url('../styles/img/footer/tablet-finalform-clouds_img.png') no-repeat top -18px center;
+		background-size: contain;
+		padding-top: 213px;
+		/*** evgeny code ***/
+
+		&__address-text {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		&__street {
+			font-size: 16px;
+		}
+
+		&__address {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		&__phone {
+			font-size: 16px;
+			margin-top: 3px;
+		}
+
+		&__mailto {
+			font-size: 16px;
+		}
+
+		&__socialText {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		&__item {
+			margin-right: 15px;
+
+			img {
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		&__social-icons {
+			margin-top: 10px;
+
+			:nth-child(4) {
+				margin-right: 0;
+			}
+		}
+
+		&__logo {
+			width: 169px;
+		}
+
+		&__links {
+			margin-top: 13px;
+		}
+
+		&__wrapper {
+			padding: 42px 75px;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&__social {
+			margin-top: 6px;
+			margin-right: 0;
+		}
+
+		&__telEmail {
+			margin-left: 27px;
+		}
+
+		&__logogeo {
+			padding-right: 3px;
+		}
+
+		&__location {
+			margin-top: 9px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		/*** evgeny code ***/
+		background-position: top -50px center;
+
+		/*** evgeny code ***/
+		&__links {
+			flex-direction: column;
+		}
+
+		&__wrapper {
+			padding-bottom: 0;
+		}
+
+		&__address {
+			margin: 0 auto;
+		}
+
+		&__address-text {
+			text-align: center;
+		}
+
+		&__telEmail {
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+
+		&__email {
+			margin-top: 12px;
+		}
+
+		&__tel {
+			padding-left: 15px;
+		}
+
+		&__social {
+			margin: 0 auto;
+			margin-top: 35px;
+		}
+
+		&__socialText {
+			text-align: center;
+		}
+
+		&__logo {
+			display: block;
+			margin: 0 auto;
+		}
+
+		&__item {
+			margin-right: 25px;
+		}
+
+		&__location {
+			margin-top: 4px;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+
+@media (max-width: 568px) {
+
+	/*** Ilya code ***/
+	.btn-scrollUp {
+		display: none;
+	}
+
+	.footer {
+		/*** evgeny code ***/
+		background: url('../styles/img/footer/phone-finalform-clouds_img.png') no-repeat top -50px center;
+		background-size: contain;
+		padding-top: 140px;
+
+		/*** evgeny code ***/
+		&__wrapper {
+			padding: 0;
+		}
+
+		&__logo {
+			width: 141px;
+		}
+
+		&__links {
+			margin-top: 22px;
+		}
+
+		&__address-text {
+			font-size: 14px;
+			line-height: 19px;
+		}
+
+		&__street {
+			position: relative;
+			font-size: 14px;
+			line-height: 19px;
+		}
+
+		&__logogeo {
+			margin-right: 4px;
+			padding-right: 0;
+			width: 12px;
+			height: 15px;
+		}
+
+		&__phone {
+			padding-left: 11px;
+			font-size: 14px;
+		}
+
+		&__logophone {
+			position: absolute;
+			left: -11px;
+			width: 15px;
+			height: 15px;
+			padding-right: 0;
+		}
+
+		&__telEmail {
+			margin-top: 29px;
+		}
+
+		&__phone {
+			margin: 0 auto;
+			margin-top: -1px;
+			padding-left: 0;
+		}
+
+		&__mailto {
+			padding-left: 0;
+			font-size: 14px;
+		}
+
+		&__logomail {
+			position: absolute;
+			left: -23px;
+			padding-right: 0;
+			width: 18px;
+			height: 15px;
+		}
+
+		&__socialText {
+			font-size: 14px;
+		}
+
+		&__social-icons {
+			margin-top: 9px;
+		}
+
+		&__iframe {
+			margin-top: 23px;
+			padding-left: 10px;
+			padding-right: 10px;
+			min-width: 300px;
+		}
+
+		&__tel {
+			position: relative;
+			padding-left: 0;
+		}
+
+		&__email {
+			position: relative;
+		}
+	}
+}
+
+/*** evgeny code ***/
+@media (max-width: 320px) {
+	.footer {
+		padding-top: 100px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.footer {
+		background-position: top -35px center;
+	}
+}
+
+/*** evgeny code ***/

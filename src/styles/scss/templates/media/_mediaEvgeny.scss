@@ -1,0 +1,620 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+	.abonement {
+		background-size: 300px 300px,
+			480px 384px,
+			100% 450px,
+			cover;
+		background-position: left 116px top 33px,
+			top right -55px,
+			center top,
+			center bottom;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.abonement {
+		background-size: 300px 300px,
+			400px 320px,
+			100% 450px,
+			cover;
+		background-position: left top,
+			top right -55px,
+			center top,
+			center bottom;
+	}
+}
+
+@media only screen and (max-width : 1092px) {}
+
+@media only screen and (max-width : 992px) {
+	.abonement .inputs {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.abonement .inputs input {
+		width: 360px;
+		margin-bottom: 27px;
+	}
+
+	.order_form_container {
+		width: 490px;
+	}
+
+	.order .inputs input {
+		text-indent: 12px;
+		font-size: 16px;
+	}
+
+	.order_form button {
+		width: 360px;
+		margin-top: 0px;
+	}
+
+	.order .order_form button {
+		margin-top: 18px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 770px) {
+	section.abonement h2,
+	section.our_works h2,
+	section.order h2,
+	section.customer_reviews h2{
+		font-size: 52px;
+	}
+	section.abonement h2 {
+		margin-bottom: 43px;
+	}
+	section.our_works h2 {
+		margin-bottom: 36px;
+	}
+	section.customer_reviews h2{
+		margin-bottom: 25px;
+	}
+	.abonement {
+		background: url('../styles/img/abonement/darkcloud_img.png') no-repeat,
+			url('../styles/img/abonement/bath_img.png') no-repeat,
+			url('../styles/img/abonement/white_bg.png') no-repeat,
+			url('../styles/img/abonement/tablet-wecanalso-clouds_img.png') no-repeat;
+		background-position: left -50px top, top 0px right 0px, center top, center bottom;
+		background-size: 462px 339px,
+			360px 266px,
+			100% 630px,
+			contain;
+	}
+	.abonement .order_form_container {
+		width: 490px;
+		box-sizing: border-box;
+	}
+	.abonement .inputs input{
+		height: 59px;
+	}
+	.abonement .order_form button{
+		font-size: 21px;
+		margin-top: 10px;
+	}
+
+	.inputs input {
+		width: 360px;
+		margin-bottom: 19px;
+	}
+
+	.our_works {
+		padding-bottom: 65px;
+	}
+
+	.our_works_buttons {
+		margin-bottom: 34px;
+	}
+
+	.our_works_buttons button {
+		margin-left: 26px;
+		margin-right: 26px;
+		// border: 1px solid green;
+		width: 170px;
+		height: 52px;
+		font-size: 21px;
+		background-size: 180px 70px;
+	}
+	.our_works_buttons button.active-work{
+		background-size: 180px 70px;
+	}
+
+	.client_img img {
+		width: 100px;
+	}
+
+	.works_slider button.w-arr-l {
+		background: url('../styles/img/our_works/mob-arrow-left.png') no-repeat center center;
+		width: 43px;
+		height: 43px;
+	}
+
+	.works_slider button.w-arr-r {
+		background: url('../styles/img/our_works/mob-arrow-right.png') no-repeat center center;
+		width: 43px;
+		height: 43px;
+	}
+
+	/* reviews */
+	.customer_reviews h2 img {
+		width: 164px;
+		height: 109px;
+		top: -52px;
+		left: -48px;
+	}
+	.review_content{
+		width: 86%;
+	}
+	.client_review p {
+		width: 89%;
+	}
+	.client_review .slice {
+		top: 30px;
+	}
+	.border_img {
+		width: 100px;
+		height: 100px;
+		padding: 3px;
+	}
+
+	.border_img img {
+		width: 100%;
+	}
+
+	#reviews-arrow-left,
+	#reviews-arrow-right {
+		top: 48px;
+		transform: translateY(0);
+		width: 43px;
+		height: 43px;
+		background-size: contain;
+	}
+
+	#reviews-arrow-left {
+		background: url('../styles/img/our_works/mob-arrow-left.png') no-repeat center center;
+	}
+
+	#reviews-arrow-right {
+		background: url('../styles/img/our_works/mob-arrow-right.png') no-repeat center center;
+	}
+	.order .order_form h4{
+		width: 90%;
+		margin-bottom: 32px;
+	}
+	.order .order_form_container {
+		width: 499px;
+	}
+
+	.order .inputs {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.order .inputs input {
+		width: 360px;
+		height: 60px;
+		margin-bottom: 30px;
+	}
+
+	.order textarea {
+		width: 360px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.order .order_form button{
+		height: 63px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.abonement .order_form_container {
+		width: 85%;
+		min-width: 290px;
+	}
+
+	.our_works_buttons button {
+		margin-left: 16px;
+		margin-right: 16px;
+		width: 160px;
+		height: 58px;
+		background-size: contain;
+	}
+	.our_works_buttons button.active-work{
+		background-size: contain;
+	}
+
+	.customer_reviews h2 img {
+		left: 0;
+	}
+
+	.border_img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.border_img img {
+		width: 100%;
+		border-radius: 50%;
+	}
+
+	.review_content {
+		flex-direction: column;
+	}
+
+	.client_review {
+		margin-left: 0;
+	}
+
+	.client_review .slice {
+		display: none;
+	}
+
+	.review_content .client_img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 38px;
+	}
+
+	.client_img p {
+		font-size: 16px;
+	}
+
+	/*** modal ***/
+	.modal_border img {
+		width: 90px;
+		height: 90px;
+		margin-top: 36px;
+		margin-bottom: 5px;
+	}
+
+	.modal__title {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width : 765px) {
+
+	section.abonement h2,
+	section.customer_reviews h2,
+	section.our_works h2,
+	section.order h2 {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width : 660px) {
+	.order .order_form_container {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.abonement {
+		background-size: 462px 339px,
+			360px 266px,
+			100% 685px,
+			contain;
+	}
+}
+
+@media only screen and (max-width : 550px) {
+	.abonement form p {
+		line-height: 22px;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.inputs {
+		width: 100%;
+	}
+
+	.order .inputs {
+		width: 100%;
+	}
+
+	.order_form .inputs input,
+	.order_form textarea,
+	.order_form button {
+		width: 90%;
+	}
+
+	button.glide__arrow--left,
+	button.glide__arrow--right {
+		width: 55px;
+		height: 55px;
+		background-size: contain;
+	}
+
+	.our_works_buttons {
+		margin-bottom: 20px;
+		justify-content: space-around;
+	}
+
+	.our_works_buttons button {
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 14px;
+		width: 86px;
+		height: 32px;
+		background: url('../styles/img/our_works/works_button_small.png') center center no-repeat;
+	}
+
+	.our_works_buttons button.active-work {
+		background: url('../styles/img/our_works/works_button_sm_active.png') center center no-repeat;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 460px) {
+	.abonement h2 {
+		font-size: 46px;
+	}
+
+	.glide_our-works1,
+	.glide_our-works2,
+	.glide_our-works3 {
+		width: 100%;
+	}
+
+	.our_works button.glide__arrow--left,
+	.our_works button.glide__arrow--right {
+		display: none;
+	}
+
+	.works_slider .glide__slide--active {
+		transform: scale(1.6);
+	}
+
+	// .works_slider .glide__slide--active img {
+	/* margin-left: -40px; */
+	// }
+}
+
+@media only screen and (max-width : 390px) {
+
+	.abonement h2,
+	.our_works h2,
+	.customer_reviews h2,
+	.order h2 {
+		font-size: 26px;
+	}
+
+	section.abonement h2 {
+		margin-bottom: 28px;
+	}
+
+	.our_works h2 {
+		margin-bottom: 30px;
+	}
+
+	section.customer_reviews h2 {
+		margin-bottom: 10px;
+	}
+
+	.abonement {
+		background-size: 300px 300px,
+			160px 130px,
+			100% 665px,
+			contain;
+		background-position: left top, top 42px right -16px, center top, center bottom;
+	}
+
+	.abonement form h4 {
+		font-size: 21px;
+	}
+
+	.abonement form p {
+		font-size: 16px;
+		margin-bottom: 23px;
+	}
+
+	.abonement .inputs input {
+		height: 40px;
+	}
+
+	.abonement .order_form button{
+		width: 220px;
+		height: 40px;
+		font-size: 16px;
+		margin-top: -8px;
+	}
+	.client_review {
+		width: 290px;
+		margin-left: -32px;
+	}
+
+	.client_review p {
+		font-size: 14px;
+		width: 95%;
+		text-align: center;
+	}
+
+	.order form h4 {
+		font-size: 18px;
+	}
+
+	.modal__title {
+		font-size: 21px;
+	}
+
+	.modal__container {
+		height: 340px;
+	}
+
+	.modal_border {
+		height: 320px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.abonement {
+		padding-bottom: 74px;
+		background: url('../styles/img/abonement/darkcloud_img.png') no-repeat,
+		url('../styles/img/abonement/bath_img.png') no-repeat,
+		url('../styles/img/abonement/white_bg.png') no-repeat,
+		url('../styles/img/abonement/phone-wecanalso-clouds_img.png') center bottom no-repeat;
+		background-size: 130px 96px,
+			160px 130px,
+			100% 535px,
+			contain;
+		background-position: left top 40px, top 39px right 0px, center top, center bottom;
+	}
+
+	.abonement .inputs {
+		min-width: 269px;
+	}
+
+	.abonement .inputs input,
+	.order .inputs input,
+	.order textarea,
+	.order button {
+		width: 220px;
+	}
+
+	section.our_works {
+		background: url('../styles/img/our_works/mob-workphoto-clouds_image.png') no-repeat, url('../styles/img/our_works/phone-workexamples-clouds_img.png') no-repeat;
+		background-position: top 152px center, bottom -3px center;
+		padding-bottom: 54px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	
+
+	.our_works_buttons {
+		position: relative;
+		z-index: 200;
+		margin-bottom: 10px;
+	}
+
+	.works_slider .glide__track {
+		overflow: visible;
+	}
+	.customer_reviews{
+		padding-top: 19px;
+	}
+	.customer_reviews h2 {
+		width: 85%;
+		margin-bottom: 9px;
+	}
+
+	.customer_reviews h2 img {
+		width: 100px;
+		height: 67px;
+		top: -19px;
+		left: -5px;
+	}
+	.client_img p{
+		margin-top: 17px;
+	}
+	#reviews-arrow-left, #reviews-arrow-right {
+		top: 64px;
+	}
+
+	.border_img {
+		width: 142px;
+		height: 142px;
+	}
+
+	.border_img img {
+		width: 100%;
+		border-radius: 50%;
+	}
+
+	.order .order_form h4 {
+		width: 220px;
+		margin-top: 24px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.order .inputs input {
+		width: 220px;
+		height: 40px;
+		font-size: 14px;
+		padding-left: 8px;
+	}
+
+	.order textarea {
+		font-size: 14px;
+		text-indent: 0;
+		padding-left: 8px;
+		height: 66px;
+		padding-left: 16px;
+	}
+
+	.order .order_form button {
+		width: 220px;
+		height: 40px;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 460px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.order .order_form_container {
+		width: 1170px;
+	}
+
+	.order .inputs {
+		width: 968px;
+		justify-content: space-between;
+	}
+
+	.order textarea {
+		width: 968px;
+		height: 120px;
+	}
+
+	.order .inputs input:nth-child(1) {
+		width: 270px;
+	}
+
+	.order .inputs input:nth-child(1) {
+		width: 270px;
+	}
+
+	.order .inputs input:nth-child(3) {
+		width: 370px;
+	}
+}
+
+@media only screen and (min-width : 1900px) {
+	.abonement {
+		background-position: left 245px top 33px, top 0px right 77px, center top, center bottom;
+	}
+
+	.abonement .abon_form_container {
+		width: 970px;
+	}
+}

@@ -1,0 +1,94 @@
+.aboutUs {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #fff;
+
+	.container__first {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__wrapper {
+		max-width: 966px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		font-family: 'Vollkorn', serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 58px;
+		line-height: 81px;
+		display: flex;
+		align-items: center;
+		color: #4D476F;
+	}
+
+	&__caption {
+		margin-top: 18px;
+		width: 323px;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 130%;
+		letter-spacing: 0.01em;
+		color: #000000;
+	}
+
+	&__text {
+		margin-top: 22px;
+		max-width: 400px;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 165%;
+		color: #000000;
+	}
+
+	&__container-founder {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__text-founder {
+		margin: 0 auto;
+		margin-top: -90px;
+		width: 370px;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+		text-align: right;
+		letter-spacing: 0.01em;
+		color: #1F1F1F;
+	}
+
+	&__founder-name {
+		font-style: italic;
+		font-size: 21px;
+		line-height: 175%;
+		font-weight: bold;
+	}
+
+	&__clouds-founder {
+		margin-top: -70px;
+		background: url(../styles/img/aboutUs/clouds-founder.png) no-repeat, url(../styles/img/aboutUs/founder.png) no-repeat, url(../styles/img/icons/aboutUs__line.svg) no-repeat;
+		background-position: left -50px bottom 50px, center center, center center;
+		width: 591px;
+		height: 604px;
+	}
+
+	&__pc-aboutUs-clouds {
+		margin: -570px 0 0 0;
+		max-width: 1920px;
+		height: 585px;
+		background: url(../styles/img/aboutUs/pc-aboutUs-clouds.png) no-repeat;
+	}
+}

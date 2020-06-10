@@ -1,0 +1,104 @@
+.ourMasters {
+	min-height: 666.18px;
+
+	&__title {
+		text-align: center;
+		font-family: 'Vollkorn', serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 58px;
+		line-height: 100%;
+		color: #4D476F;
+	}
+
+	&__wrapper {
+		position: relative;
+		padding-left: 1px;
+		margin-top: 34px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__whiteEllipse {
+		position: absolute;
+		top: calc(-111.54px / 2);
+		margin: 0 auto;
+		width: 111.54px;
+		height: 111.54px;
+		border-radius: 50%;
+		background-color: #fff;
+		box-shadow: 0 0 30px #BFCBD2;
+		z-index: -10
+	}
+
+	&__strokeEllipse {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 10;
+		background: white url(../styles/img/dashed/ellipseComp.svg) center center no-repeat;
+		position: absolute;
+		top: -57px;
+		margin: 0 auto;
+		width: 111px;
+		height: 111px;
+		border-radius: 50%;
+	}
+
+	&__whiteRestangle {
+		margin-top: 88px;
+		width: 369.64px;
+		height: 146.72px;
+		background: #fff;
+		border-radius: 8px;
+		box-shadow: 0 0 30px #BFCBD2;
+	}
+
+	&__strokeRestangle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background: url(../styles/img/dashed/rectangleComp.svg) center center no-repeat;
+	}
+
+	&__descr {
+		margin-top: 22px;
+		text-align: center;
+	}
+
+	&__descr {
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 21px;
+		line-height: 150%;
+	}
+
+	&__status {
+		margin-top: -6px;
+		font-style: normal;
+		font-size: 16px;
+	}
+
+	&__brush {
+		background: url(../styles/img/ourMasters/brush.png) center center no-repeat;
+		width: 220px;
+		height: 220px;
+		position: absolute;
+		top: -17px;
+		left: -137px;
+	}
+
+	&__polish {
+		background: url(../styles/img/ourMasters/polish.png) center center no-repeat;
+		width: 100px;
+		height: 180px;
+		position: absolute;
+		top: 364px;
+		right: -133px;
+	}
+}
